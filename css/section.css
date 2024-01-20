@@ -1,0 +1,76 @@
+section {
+  margin-top: 1.8rem;
+}
+.section-home {
+  padding: 7px;
+  background-color: #f5f5f5;
+}
+.section-home-span {
+  font-size: 12px;
+}
+.section-body {
+  display: flex;
+  margin-top: 1.4rem;
+}
+.section-body-left {
+  flex: 1;
+  padding: 10px;
+}
+.h1-sh,
+.h2-ca,
+.h4-li {
+  line-height: 1cm;
+}
+.h1-sh {
+  font-size: 25px;
+  font-weight: bold;
+  position: relative;
+  margin-bottom: 0.8rem;
+}
+
+.h1-sh::before,
+.h1-sh::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  border: 1px dashed #61677a;
+}
+
+.h1-sh::before {
+  top: -5px;
+}
+
+.h1-sh::after {
+  bottom: -5px;
+}
+.h2-ca {
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 0.7rem;
+}
+.h4-li {
+  font-size: 15px;
+  font-weight: 300;
+  margin-bottom: 0.6rem;
+  cursor: pointer;
+}
+.h4-li:hover {
+  color: #74c5ba;
+  transform: ea;
+}
+.section-body-right {
+  margin-left: 2rem;
+  flex: 4;
+  display: flex;
+}
+footer {
+  width: 100%;
+}
+
+.section-body-right .row-cols-3 .col {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}

@@ -1,0 +1,159 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;300;400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+.black {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 2.3rem;
+  background-color: black;
+}
+.inner-black {
+  margin: 1rem 4rem;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 2rem;
+}
+.black a {
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: none;
+  color: white;
+  padding: 3rem;
+}
+.black-span {
+  font-size: 12px;
+  color: white;
+}
+.black-span {
+  font-size: 12px;
+  color: white;
+}
+.black-span-blue {
+  cursor: pointer;
+  font-weight: bold;
+  color: #74c5ba;
+}
+.page {
+  margin: 1rem 4rem;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 13rem;
+  margin-bottom: 0.8rem;
+}
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+.header-icon-img {
+  width: 60px;
+  height: 60px;
+  animation: spin 4s linear infinite;
+}
+
+.policy_custom {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 1rem;
+}
+.fa-btn {
+  font-size: 15px;
+  padding: 10px 13px;
+  border-radius: 60%;
+  border: 1px solid #000;
+  cursor: pointer;
+}
+.fa-btn:hover {
+  background-color: #74c5ba;
+  color: white !important;
+  transition: 0.4s ease-in-out;
+}
+.policy-titile {
+  font-size: 12px !important;
+}
+.policy-ct {
+  font-size: 10px !important;
+}
+.nav {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  position: relative;
+}
+
+.hamburger {
+  display: none;
+  font-size: 20px !important;
+  font-weight: bold;
+}
+
+.nav::before,
+.nav::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  right: 0;
+  height: 1px;
+  border: 1px dashed #61677a;
+}
+
+.nav::before {
+  top: -5px;
+}
+
+.nav::after {
+  bottom: -5px;
+}
+
+ul {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 3rem;
+  margin: 10px 0;
+}
+nav,
+ul,
+li {
+  list-style: none;
+}
+nav a {
+  font-size: 12px;
+  font-weight: bold;
+  text-decoration: none;
+  color: black;
+}
+nav a:hover {
+  color: #74c5ba !important;
+  transition: 0.4s ease-in-out;
+}
+
+input[type="checkbox"] {
+  display: none;
+}
+.fa-search {
+  font-size: 18px;
+  margin: 10px 0;
+  margin-right: 2rem;
+}
+.fa-shopping-cart {
+  margin: 10px 0;
+  font-size: 18px;
+}

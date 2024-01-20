@@ -1,0 +1,47 @@
+@media screen and (max-width: 950px) {
+  .black {
+    width: 100%;
+  }
+  .black-span-remove {
+    display: none;
+    margin: 0;
+  }
+  .page {
+    margin: 1.5rem;
+  }
+
+  .header {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 1.1rem;
+
+    margin: 0 0 0.8rem 0;
+  }
+  .policy_custom {
+    display: flex;
+    flex-direction: column;
+    font-size: 10px;
+  }
+  .policy-icon,
+  .policy-ct {
+    display: none;
+  }
+  .details-container {
+    display: flex;
+  }
+
+  ul {
+    display: none;
+  }
+  .nav {
+    width: 100%;
+  }
+  .hamburger {
+    display: block;
+  }
+  .section-body-left {
+    display: none;
+  }
+}
